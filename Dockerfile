@@ -1,4 +1,4 @@
-FROM rust:1
+FROM rustdocker/rust:beta
 MAINTAINER chris.nixon@sigma.me.uk
 
 RUN apt-get update
