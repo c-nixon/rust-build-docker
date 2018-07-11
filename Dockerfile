@@ -12,3 +12,5 @@ RUN add-apt-repository \
    stable"
 RUN apt-get update
 RUN apt-get install -y docker-ce
+
+RUN rustup target install x86_64-unknown-linux-musl
